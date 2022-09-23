@@ -1,0 +1,16 @@
+body{
+    width: 200px;
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: inline-flex;
+    margin: auto 10 px;
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
